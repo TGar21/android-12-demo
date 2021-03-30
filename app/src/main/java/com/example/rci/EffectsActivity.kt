@@ -11,6 +11,7 @@ import com.example.rci.databinding.ActivityEffectsBinding
 
 const val DESATURATION_ADDITION = 2f
 
+// desaturation styling borrowed from https://blog.stylingandroid.com/rendereffect-desaturate/
 class EffectsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEffectsBinding
