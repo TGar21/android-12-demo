@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"
+        app:srcCompat="@drawable/jirka2" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"
+        app:srcCompat="@drawable/jirka2" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"
+        app:srcCompat="@drawable/jirka2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:text="@string/reset"
+        android:layout_weight="2"
+        android:id="@+id/reset_button"
+        android:textSize="8sp"/>
+</LinearLayout>
